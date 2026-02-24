@@ -21,8 +21,8 @@ export default function PopularTicker({ items }) {
                   isUp
                     ? "text-green-600"
                     : isDown
-                    ? "text-red-600"
-                    : "text-gray-600"
+                      ? "text-red-600"
+                      : "text-gray-600"
                 }`}
               >
                 {isUp ? "▲" : isDown ? "▼" : "="}
@@ -34,8 +34,8 @@ export default function PopularTicker({ items }) {
                   isUp
                     ? "text-green-600"
                     : isDown
-                    ? "text-red-600"
-                    : "text-gray-600"
+                      ? "text-red-600"
+                      : "text-gray-600"
                 }`}
               >
                 {item.change > 0 ? "+" : ""}

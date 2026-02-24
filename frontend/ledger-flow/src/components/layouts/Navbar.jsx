@@ -50,7 +50,7 @@ const Navbar = ({ activeMenu }) => {
         </button>
 
         <h2 className="text-4xl font-bold bg-gradient-to-r from-blue-500 to-blue-900 text-transparent bg-clip-text">
-          Expense Tracker
+          LedgerFlow
         </h2>
       </div>
 

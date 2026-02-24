@@ -7,7 +7,7 @@ const AuthLayout = ({ children }) => {
     <div className="flex items-center justify-center">
       <div className="w-screen h-screen md:w-[60vw] px-12 pt-8 pb-12">
         <h2 className="absolute top-8 left-12 text-4xl font-bold bg-gradient-to-r from-blue-500 to-blue-900 text-transparent bg-clip-text">
-          Expense Tracker
+          LedgerFlow
         </h2>
 
         {children}
